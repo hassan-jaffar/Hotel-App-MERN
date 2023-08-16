@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: 'Ysabeau SC', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.smallimg{
+  height: 200px;
+  width: 100% !important;
+  border-radius: 10px;
+}
+
+.bigimg{
+  height: 350px;
+  width: 100% !important;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.bs {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.br{
+  border-radius: 25px;
+}
+
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden !important;
+  }
+}
